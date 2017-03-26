@@ -1,0 +1,22 @@
+<table class="pure-table pure-table-horizontal width100">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Company</th>
+            <th>Job Title</th>
+            <th>source</th>
+            <th>Location</th>
+            <th>Created Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of JobList">
+            <td>{{ index }}</td>
+            <td>{{ item.company }}</td>
+            <td>{{ item.jobtitle }}</td>
+            <td>{{ item.source }}</td>
+            <td>{{ item.formattedLocationFull }}</td>
+            <td>{{ item.formattedRelativeTime }}</td>
+        </tr>
+    </tbody>
+</table>

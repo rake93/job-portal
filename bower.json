@@ -1,0 +1,20 @@
+{
+  "name": "job-portal",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Vijayasingam Thanasekaran <t.vijayasingam@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
